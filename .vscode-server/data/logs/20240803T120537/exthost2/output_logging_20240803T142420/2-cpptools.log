@@ -1,0 +1,2 @@
+[Error - 2:26:13 PM] cpptools client: couldn't create connection to server.
+Launching server using command /home/cs300-user/.vscode-server/extensions/ms-vscode.cpptools-1.21.5-linux-arm64/bin/cpptools failed. Error: spawn /home/cs300-user/.vscode-server/extensions/ms-vscode.cpptools-1.21.5-linux-arm64/bin/cpptools EACCES

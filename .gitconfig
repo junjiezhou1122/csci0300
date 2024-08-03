@@ -1,0 +1,15 @@
+[user]
+	name = Junjie Zhou
+	email = menging1122@gmail.com
+[init]
+	defaultBranch = main
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+	grep = auto
+[alias]
+	lol = log --graph --oneline --decorate --color --all
+[credential]
+	helper = "!f() { /home/cs300-user/.vscode-server/bin/b1c0a14de1414fcdaa400695b4db1c0799bc3124/node /tmp/vscode-remote-containers-b4f23618-2d54-426b-965a-fcb58f969302.js git-credential-helper $*; }; f"
