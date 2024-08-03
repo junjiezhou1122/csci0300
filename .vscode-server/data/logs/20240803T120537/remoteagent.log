@@ -63,3 +63,4 @@
 2024-08-03 15:09:31.528 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
 2024-08-03 15:09:31.544 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
 2024-08-03 15:09:31.559 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-08-03 15:11:55.070 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
