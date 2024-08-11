@@ -1,0 +1,9 @@
+{
+	"messages": [
+		"Terminating process PID=${0} ..."
+	],
+	"keys": [
+		"utils.terminate.process"
+	],
+	"filePath": "src\\util"
+}

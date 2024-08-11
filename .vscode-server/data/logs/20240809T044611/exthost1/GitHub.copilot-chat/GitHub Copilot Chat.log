@@ -1,0 +1,25 @@
+2024-08-09 04:46:16.022 [info] [FetcherService] Using the Helix fetcher.
+2024-08-09 04:46:16.022 [info] [gitExtensionService] Initializing Git extension service.
+2024-08-09 04:46:16.022 [info] [RemoteAgents] Unable to fetch remote agents because user is not signed in.
+2024-08-09 04:46:16.022 [info] [gitExtensionService] Successfully activated the vscode.git extension.
+2024-08-09 04:46:16.022 [info] [gitExtensionService] Enablement state of the vscode.git extension: true.
+2024-08-09 04:46:16.022 [info] [gitExtensionService] Successfully registered Git commit message provider.
+2024-08-09 04:46:16.355 [info] [auth] Logged in as junjiezhou1122
+2024-08-09 04:46:16.355 [info] [auth] Logged in as junjiezhou1122
+2024-08-09 04:46:16.355 [info] [auth] Logged in as junjiezhou1122
+2024-08-09 04:46:16.355 [info] [auth] Logged in as junjiezhou1122
+2024-08-09 04:46:16.355 [info] [auth] Logged in as junjiezhou1122
+2024-08-09 04:46:18.759 [info] [auth] Got Copilot token for junjiezhou1122
+2024-08-09 04:46:18.890 [info] [auth] Got Copilot token for junjiezhou1122
+2024-08-09 04:46:18.939 [info] [auth] Got Copilot token for junjiezhou1122
+2024-08-09 04:46:18.945 [info] [auth] Got Copilot token for junjiezhou1122
+2024-08-09 04:46:18.954 [info] [chat] copilot token chat_enabled: true
+2024-08-09 04:46:18.955 [info] [githubTitleAndDescriptionProvider] GitHub.vscode-pull-request-github extension is not yet activated.
+2024-08-09 04:46:19.039 [info] [auth] Got Copilot token for junjiezhou1122
+2024-08-09 04:46:20.899 [info] [contributions] activationBlocker from 'languageModelAccess' took for 4899ms
+2024-08-09 04:47:07.335 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 1067 ms
+2024-08-09 04:47:10.373 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-09 04:47:10.378 [info] [streamChoices] request done: requestId: [0788995d-47de-48a8-84d6-79a1c545f705] model deployment ID: []
+2024-08-09 04:47:11.626 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 836 ms
+2024-08-09 04:47:11.640 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-09 04:47:11.641 [info] [streamChoices] request done: requestId: [639c8e8a-b9ad-46ce-bbb3-39862b8a5f0c] model deployment ID: []

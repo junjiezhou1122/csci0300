@@ -1,0 +1,150 @@
+2024-08-09 04:46:11.855 [info] 
+
+
+
+
+2024-08-09 04:46:11.862 [info] Extension host agent started.
+2024-08-09 04:46:11.894 [debug] Removing uninstalled extensions: ["ms-vscode.cpptools-1.21.5-linux-arm64"]
+2024-08-09 04:46:11.910 [info] [127.0.0.1][8b7dcf26][ManagementConnection] New connection established.
+2024-08-09 04:46:11.928 [info] Log level changed to info
+2024-08-09 04:46:12.000 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 04:46:12.006 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 04:46:12.062 [info] [127.0.0.1][7d9561b0][ExtensionHostConnection] New connection established.
+2024-08-09 04:46:12.116 [info] [127.0.0.1][7d9561b0][ExtensionHostConnection] <329> Launched Extension Host Process.
+2024-08-09 04:46:12.402 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 04:46:12.725 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 04:46:12.923 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 04:46:13.022 [info] Deleted uninstalled extension from disk ms-vscode.cpptools /home/cs300-user/.vscode-server/extensions/ms-vscode.cpptools-1.21.5-linux-arm64
+2024-08-09 04:46:13.828 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 04:46:14.160 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 04:46:14.200 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 04:46:14.531 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 04:46:14.786 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 04:46:14.883 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 04:46:15.010 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 04:46:15.048 [info] [127.0.0.1][7d9561b0][ExtensionHostConnection] <329><stderr> /bin/sh: 1: /home/cs300-user/.vscode-server/extensions/ms-vscode.cpptools-1.21.6-linux-arm64/LLVM/bin/clang-format: Permission denied
+
+2024-08-09 04:46:20.724 [info] Getting Manifest... github.copilot
+2024-08-09 04:46:22.515 [info] Installing extension: github.copilot {"productVersion":{"version":"1.92.1","date":"2024-08-07T20:16:39.455Z"},"pinned":false,"isApplicationScoped":false,"context":{"clientTargetPlatform":"darwin-arm64"},"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/home/cs300-user/.vscode-server/extensions/extensions.json","external":"file:///home/cs300-user/.vscode-server/extensions/extensions.json","path":"/home/cs300-user/.vscode-server/extensions/extensions.json","scheme":"file"}}
+2024-08-09 04:46:22.539 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 04:46:22.558 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 04:46:22.575 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 04:46:26.885 [info] Extension signature verification result for github.copilot: Success. Executed: true. Duration: 653ms.
+2024-08-09 04:46:27.442 [info] Extracted extension to file:///home/cs300-user/.vscode-server/extensions/github.copilot-1.221.0: github.copilot
+2024-08-09 04:46:27.452 [info] Renamed to /home/cs300-user/.vscode-server/extensions/github.copilot-1.221.0
+2024-08-09 04:46:27.464 [info] Marked extension as uninstalled github.copilot-1.220.0
+2024-08-09 04:46:27.468 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 04:46:27.477 [info] Extension installed successfully: github.copilot file:///home/cs300-user/.vscode-server/extensions/extensions.json
+2024-08-09 04:48:08.986 [info] [127.0.0.1][8b7dcf26][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-08-09 04:48:09.143 [info] [127.0.0.1][7d9561b0][ExtensionHostConnection] <329> Extension Host Process exited with code: 0, signal: null.
+2024-08-09 04:48:17.252 [info] [127.0.0.1][e5823097][ManagementConnection] New connection established.
+2024-08-09 04:48:17.353 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 04:48:17.397 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 04:48:17.502 [info] [127.0.0.1][49188e89][ExtensionHostConnection] New connection established.
+2024-08-09 04:48:17.607 [info] [127.0.0.1][49188e89][ExtensionHostConnection] <2174> Launched Extension Host Process.
+2024-08-09 04:48:17.746 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 04:48:18.175 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 04:48:18.388 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 04:48:18.487 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 04:48:18.616 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 04:48:18.690 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 04:48:18.923 [info] [127.0.0.1][49188e89][ExtensionHostConnection] <2174><stderr> /bin/sh: 1: /home/cs300-user/.vscode-server/extensions/ms-vscode.cpptools-1.21.6-linux-arm64/LLVM/bin/clang-format: Permission denied
+
+2024-08-09 04:48:20.066 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 04:48:20.098 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 04:48:20.261 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 04:53:51.831 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 04:58:51.982 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 05:01:19.009 [info] [127.0.0.1][e5823097][ManagementConnection] The client has reconnected.
+2024-08-09 05:01:22.866 [info] [127.0.0.1][49188e89][ExtensionHostConnection] The client has reconnected.
+2024-08-09 06:13:46.342 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 06:19:46.335 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 06:25:46.312 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 06:30:46.453 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 06:35:46.476 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 06:40:46.531 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 06:45:46.634 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 06:50:46.620 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 06:55:48.164 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 07:00:49.212 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 07:06:46.175 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 07:12:46.173 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 07:18:17.225 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 07:23:46.151 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 07:29:46.130 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 07:35:46.132 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 07:40:49.454 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 07:45:50.039 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 07:46:51.765 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 07:50:51.027 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 07:55:51.141 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 08:00:51.220 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-09 08:02:36.129 [info] [127.0.0.1][e5823097][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-08-09 08:02:37.250 [info] [127.0.0.1][49188e89][ExtensionHostConnection] <2174> Extension Host Process exited with code: 0, signal: null.
+2024-08-11 01:35:50.377 [info] [127.0.0.1][e4403b06][ManagementConnection] New connection established.
+2024-08-11 01:35:51.094 [info] [127.0.0.1][1fb15144][ExtensionHostConnection] New connection established.
+2024-08-11 01:35:51.138 [info] [127.0.0.1][1fb15144][ExtensionHostConnection] <89910> Launched Extension Host Process.
+2024-08-11 01:35:51.256 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 01:35:51.334 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 01:35:52.117 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 01:35:52.511 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 01:35:52.719 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 01:35:52.738 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 01:35:53.426 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 01:35:53.801 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 01:35:53.815 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 01:35:53.941 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 01:35:54.652 [info] [127.0.0.1][1fb15144][ExtensionHostConnection] <89910><stderr> /bin/sh: 1: /home/cs300-user/.vscode-server/extensions/ms-vscode.cpptools-1.21.6-linux-arm64/LLVM/bin/clang-format: Permission denied
+
+2024-08-11 01:40:52.268 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 01:45:53.301 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 01:50:53.423 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 01:55:53.525 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 02:01:15.222 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 02:06:17.179 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 02:11:17.293 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 02:16:17.388 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 02:21:17.556 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 02:27:15.223 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 02:33:15.196 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 02:39:15.174 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 02:45:15.159 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 02:51:15.153 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 02:57:15.145 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 03:00:35.915 [info] [127.0.0.1][e4403b06][ManagementConnection] The client has reconnected.
+2024-08-11 03:00:40.342 [info] [127.0.0.1][1fb15144][ExtensionHostConnection] The client has reconnected.
+2024-08-11 03:37:28.444 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 03:42:28.941 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 03:48:25.902 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 03:53:27.313 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 03:58:27.427 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 04:03:27.498 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 04:08:29.104 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 04:13:29.217 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 04:18:29.274 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 04:23:29.381 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 04:28:29.508 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 04:34:25.745 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 04:39:25.871 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 04:44:25.966 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 04:49:26.081 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 04:54:26.188 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 04:59:26.301 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 05:04:27.567 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 05:09:29.061 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 05:14:29.153 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 05:19:31.060 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 05:24:33.169 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 05:29:33.477 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 05:34:33.593 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 05:39:34.425 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 05:42:53.027 [info] [127.0.0.1][1fb15144][ExtensionHostConnection] The client has reconnected.
+2024-08-11 05:42:53.133 [info] [127.0.0.1][e4403b06][ManagementConnection] The client has reconnected.
+2024-08-11 06:39:50.417 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 06:45:50.608 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 06:51:50.420 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 06:57:50.456 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 07:03:50.492 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 07:09:50.516 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.deleteBuildDirOnCleanCconfigure.description.
+2024-08-11 07:11:22.335 [info] [127.0.0.1][e4403b06][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-08-11 07:11:24.228 [info] [127.0.0.1][1fb15144][ExtensionHostConnection] <89910> Extension Host Process exited with code: 0, signal: null.

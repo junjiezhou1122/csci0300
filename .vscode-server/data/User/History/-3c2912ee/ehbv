@@ -1,0 +1,12 @@
+.PHONY: all clean format
+
+all: reverse_test
+
+reverse_test: reverse.c reverse.h test_reverse.c
+    gcc -Wall -Werror test_reverse.c reverse.c -o reverse_test
+
+clean:
+    rm -f reverse_test
+
+format:
+    clang-format -style=Google -i reverse.c reverse.h test_reverse.c

@@ -1,0 +1,13 @@
+{
+	"messages": [
+		"The makefile file could not be opened.",
+		"The build log file could not be opened.",
+		"The extension {0} is de-activated."
+	],
+	"keys": [
+		"makefile.outline.makefileFileNotFound",
+		"makefile.outline.buildLogFileNotFound",
+		"extension.deactivated"
+	],
+	"filePath": "src\\extension"
+}

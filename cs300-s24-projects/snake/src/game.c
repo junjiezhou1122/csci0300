@@ -23,15 +23,68 @@
  */
 void update(int* cells, size_t width, size_t height, snake_t* snake_p,
             enum input_key input, int growing) {
-    // `update` should update the board, your snake's data, and global
-    // variables representing game information to reflect new state. If in the
-    // updated position, the snake runs into a wall or itself, it will not move
-    // and global variable g_game_over will be 1. Otherwise, it will be moved
-    // to the new position. If the snake eats food, the game score (`g_score`)
-    // increases by 1. This function assumes that the board is surrounded by
-    // walls, so it does not handle the case where a snake runs off the board.
-
-    // TODO: implement!
+    if (g_game_over) {
+        return;
+    }
+    
+    int current_location = snake_head_y * width + snake_head_x;
+    
+    static enum input_key real_input = INPUT_RIGHT;
+    int snake_new_head_x = snake_head_x;
+    int snake_new_head_y = snake_head_y;
+    
+    if (input != INPUT_NONE) {
+        real_input = input;
+    }
+    
+    switch (real_input) {
+        case INPUT_UP:
+            snake_new_head_y--;
+            break;
+        case INPUT_DOWN:
+            snake_new_head_y++;
+            break;
+        case INPUT_LEFT:
+            snake_new_head_x--;
+            break;
+        case INPUT_RIGHT:
+            snake_new_head_x++;
+            break;
+        case INPUT_NONE:
+        default:
+            break;
+    }
+    
+    int new_location = snake_new_head_y * width + snake_new_head_x;
+    
+    if (cells[new_location] & FLAG_WALL || cells[new_location] & FLAG_SNAKE) {
+        g_game_over = 1;
+        return;
+    }
+    
+    // Remove the snake from the old location first
+    if (cells[current_location] & FLAG_GRASS) {
+        cells[current_location] = FLAG_GRASS;
+    } else {
+        cells[current_location] = PLAIN_CELL;
+    }
+    
+    // Check if the snake is eating food
+    if (cells[new_location] & FLAG_FOOD) {
+        g_score++;
+        place_food(cells, width, height);
+    }
+    
+    // Move the snake to the new location
+    if (cells[new_location] & FLAG_GRASS) {
+        cells[new_location] = FLAG_SNAKE | FLAG_GRASS;
+    } else {
+        cells[new_location] = FLAG_SNAKE;
+    }
+    
+    // Update the snake's head position
+    snake_head_x = snake_new_head_x;
+    snake_head_y = snake_new_head_y;
 }
 
 /** Sets a random space on the given board to food.
@@ -42,15 +95,18 @@ void update(int* cells, size_t width, size_t height, snake_t* snake_p,
  *  - height: the height of the board
  */
 void place_food(int* cells, size_t width, size_t height) {
-    /* DO NOT MODIFY THIS FUNCTION */
-    unsigned food_index = generate_index(width * height);
-    // check that the cell is empty or only contains grass
-    if ((*(cells + food_index) == PLAIN_CELL) || (*(cells + food_index) == FLAG_GRASS)) {
-        *(cells + food_index) |= FLAG_FOOD;
+    unsigned food_index;
+    do {
+        food_index = generate_index(width * height);
+    } while (cells[food_index] & (FLAG_WALL | FLAG_SNAKE));
+
+    // 只在空白格子或草地上放置食物
+    if (cells[food_index] == PLAIN_CELL || cells[food_index] == FLAG_GRASS) {
+        cells[food_index] |= FLAG_FOOD;
     } else {
+        // 如果没有合适的位置，重新尝试
         place_food(cells, width, height);
     }
-    /* DO NOT MODIFY THIS FUNCTION */
 }
 
 /** Prompts the user for their name and saves it in the given buffer.
@@ -60,6 +116,7 @@ void place_food(int* cells, size_t width, size_t height) {
 void read_name(char* write_into) {
     // TODO: implement! (remove the call to strcpy once you begin your
     // implementation)
+
     strcpy(write_into, "placeholder");
 }
 
@@ -72,4 +129,8 @@ void read_name(char* write_into) {
  */
 void teardown(int* cells, snake_t* snake_p) {
     // TODO: implement!
+    if (cells != NULL){
+        free(cells);
+    }
+   
 }

@@ -1,0 +1,2 @@
+test_reverse: reverse.c reverse.h test_reverse.c
+	gcc -Wall -Werror 

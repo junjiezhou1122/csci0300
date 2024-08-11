@@ -1,0 +1,18 @@
+.PHONY: all clean format
+
+CFLAGS = -Wall -Werror
+CFLAGS += -o3
+
+all: reverse_test test_reverse.o reverse.o
+
+test_reverse.o: reverse.h reverse.c test_reverse.c
+	gcc $(CFLAGS) -c 
+
+reverse_test: reverse.c reverse.h test_reverse.c
+	gcc $(CFLAGS) $^ -o $@
+
+clean:
+	rm -f reverse_test
+
+format:
+	clang-format -i reverse.c reverse.h test_reverse.c

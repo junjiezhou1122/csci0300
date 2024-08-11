@@ -1,0 +1,21 @@
+.PHONY: all clean format
+
+CFLAGS = -Wall -Werror
+CFLAGS += -o3
+
+all: reverse_test test_reverse.o reverse.o
+
+test_reverse.o: test_reverse.c
+	gcc $(CFLAGS) -c test_reverse.c -o test_reverse.o
+
+reverse.o: reverse.c
+cs300-user@fde72a989728:~/cs300-s24-labs/lab1$ make
+make: Nothing to be done for 'all'.
+reverse_test: reverse.c reverse.h test_reverse.c
+	gcc $(CFLAGS) $^ -o $@
+
+clean:
+	rm -f reverse_test
+
+format:
+	clang-format -i reverse.c reverse.h test_reverse.c

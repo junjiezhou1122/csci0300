@@ -1,0 +1,210 @@
+2024-08-11 01:35:57.172 [info] [FetcherService] Using the Helix fetcher.
+2024-08-11 01:35:57.173 [info] [gitExtensionService] Initializing Git extension service.
+2024-08-11 01:35:57.175 [info] [RemoteAgents] Unable to fetch remote agents because user is not signed in.
+2024-08-11 01:35:57.180 [info] [gitExtensionService] Successfully activated the vscode.git extension.
+2024-08-11 01:35:57.182 [info] [gitExtensionService] Enablement state of the vscode.git extension: true.
+2024-08-11 01:35:57.183 [info] [gitExtensionService] Successfully registered Git commit message provider.
+2024-08-11 01:35:57.815 [info] [auth] Logged in as junjiezhou1122
+2024-08-11 01:35:57.815 [info] [auth] Logged in as junjiezhou1122
+2024-08-11 01:35:57.815 [info] [auth] Logged in as junjiezhou1122
+2024-08-11 01:35:57.815 [info] [auth] Logged in as junjiezhou1122
+2024-08-11 01:35:57.816 [info] [auth] Logged in as junjiezhou1122
+2024-08-11 01:36:01.844 [info] [auth] Got Copilot token for junjiezhou1122
+2024-08-11 01:36:01.931 [info] [auth] Got Copilot token for junjiezhou1122
+2024-08-11 01:36:02.013 [info] [auth] Got Copilot token for junjiezhou1122
+2024-08-11 01:36:02.050 [info] [chat] copilot token chat_enabled: true
+2024-08-11 01:36:02.052 [info] [githubTitleAndDescriptionProvider] GitHub.vscode-pull-request-github extension is not yet activated.
+2024-08-11 01:36:04.009 [info] [auth] Got Copilot token for junjiezhou1122
+2024-08-11 01:36:04.012 [info] [auth] Got Copilot token for junjiezhou1122
+2024-08-11 01:36:05.303 [info] [contributions] activationBlocker from 'languageModelAccess' took for 8465ms
+2024-08-11 02:04:35.506 [info] [auth] Logged in as junjiezhou1122
+2024-08-11 02:04:37.907 [info] [auth] Got Copilot token for junjiezhou1122
+2024-08-11 02:04:37.922 [info] [chat] copilot token chat_enabled: true
+2024-08-11 02:07:18.320 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 2010 ms
+2024-08-11 02:07:25.528 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-11 02:07:25.533 [info] [streamChoices] request done: requestId: [e4a7d5a1-ff14-4a9e-9ee3-012160b0e6ea] model deployment ID: []
+2024-08-11 02:07:27.665 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 699 ms
+2024-08-11 02:07:27.692 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-11 02:07:27.695 [info] [streamChoices] request done: requestId: [5234730d-c18f-43a3-8ccf-0e1cb261f365] model deployment ID: []
+2024-08-11 02:08:28.851 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 997 ms
+2024-08-11 02:08:29.774 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-11 02:08:29.802 [info] [streamChoices] request done: requestId: [3a772fbd-51fc-40c7-a70d-e017b2f3ed26] model deployment ID: []
+2024-08-11 02:08:52.834 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 1138 ms
+2024-08-11 02:09:01.595 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-11 02:09:01.599 [info] [streamChoices] request done: requestId: [67bfaed3-f9ef-491e-9f80-4e19c88d62f8] model deployment ID: []
+2024-08-11 02:09:03.645 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 681 ms
+2024-08-11 02:09:03.652 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-11 02:09:03.654 [info] [streamChoices] request done: requestId: [49f6b368-e025-4a3b-8143-1143da7c1529] model deployment ID: []
+2024-08-11 02:12:43.194 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 2083 ms
+2024-08-11 02:12:44.299 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-11 02:12:44.304 [info] [streamChoices] request done: requestId: [bf02ffcc-d594-4249-aa79-a92490b90173] model deployment ID: []
+2024-08-11 02:12:49.490 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 1147 ms
+2024-08-11 02:12:56.079 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-11 02:12:56.082 [info] [streamChoices] request done: requestId: [4069d1bb-381a-4513-9eb1-b032dcf2a614] model deployment ID: []
+2024-08-11 02:12:58.789 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 1241 ms
+2024-08-11 02:12:58.941 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-11 02:12:58.943 [info] [streamChoices] request done: requestId: [48fa832d-aad3-46e1-9f39-55bd8f71b262] model deployment ID: []
+2024-08-11 02:20:56.957 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 1944 ms
+2024-08-11 02:20:57.661 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-11 02:20:57.663 [info] [streamChoices] request done: requestId: [98b7e7ac-7e1e-4863-8999-0f391851a03a] model deployment ID: []
+2024-08-11 02:21:02.855 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 1143 ms
+2024-08-11 02:21:06.741 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-11 02:21:06.743 [info] [streamChoices] request done: requestId: [8eec2489-551d-4b69-9572-8bcc6aae219c] model deployment ID: []
+2024-08-11 02:21:09.190 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 1039 ms
+2024-08-11 02:21:09.199 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-11 02:21:09.201 [info] [streamChoices] request done: requestId: [fe70372a-e45b-4fa4-a4b9-9b08e11b92d1] model deployment ID: []
+2024-08-11 02:35:15.242 [info] [auth] Logged in as junjiezhou1122
+2024-08-11 02:35:17.617 [info] [auth] Got Copilot token for junjiezhou1122
+2024-08-11 02:35:17.656 [info] [chat] copilot token chat_enabled: true
+2024-08-11 02:40:15.114 [info] [auth] Logged in as junjiezhou1122
+2024-08-11 02:40:17.486 [info] [auth] Got Copilot token for junjiezhou1122
+2024-08-11 03:00:40.554 [info] [auth] Logged in as junjiezhou1122
+2024-08-11 03:40:28.736 [info] [auth] Logged in as junjiezhou1122
+2024-08-11 03:40:31.882 [info] [auth] Got Copilot token for junjiezhou1122
+2024-08-11 04:03:14.815 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 2109 ms
+2024-08-11 04:03:15.762 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-11 04:03:15.767 [info] [streamChoices] request done: requestId: [b4a6ecc2-5a5a-4b11-9d53-13bfb50bdff2] model deployment ID: []
+2024-08-11 04:03:19.994 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 1122 ms
+2024-08-11 04:03:28.176 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-11 04:03:28.182 [info] [streamChoices] request done: requestId: [d7cda7eb-3f36-4d14-938c-e0aa0e9b9b5c] model deployment ID: []
+2024-08-11 04:03:30.324 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 670 ms
+2024-08-11 04:03:30.384 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-11 04:03:30.385 [info] [streamChoices] request done: requestId: [0da9de3b-e9e8-41d7-94a9-8c717cb7659e] model deployment ID: []
+2024-08-11 04:05:32.028 [info] [auth] Logged in as junjiezhou1122
+2024-08-11 04:05:38.047 [info] [auth] Got Copilot token for junjiezhou1122
+2024-08-11 04:05:38.067 [info] [chat] copilot token chat_enabled: true
+2024-08-11 04:06:34.847 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 862 ms
+2024-08-11 04:06:41.659 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-11 04:06:41.665 [info] [streamChoices] request done: requestId: [b99ab7e3-fdd6-4742-b756-667df4d416ac] model deployment ID: []
+2024-08-11 04:06:43.711 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 680 ms
+2024-08-11 04:06:43.714 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-11 04:06:43.714 [info] [streamChoices] request done: requestId: [385e17f6-7a99-4439-97f0-16594b382c50] model deployment ID: []
+2024-08-11 04:07:15.121 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 835 ms
+2024-08-11 04:07:22.011 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-11 04:07:22.015 [info] [streamChoices] request done: requestId: [161623ad-16d8-4705-96c2-e6ae71ae0d91] model deployment ID: []
+2024-08-11 04:07:24.065 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 665 ms
+2024-08-11 04:07:24.067 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-11 04:07:24.068 [info] [streamChoices] request done: requestId: [8a106bdd-84e7-418d-ba56-1323cfaec490] model deployment ID: []
+2024-08-11 04:08:56.689 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 1164 ms
+2024-08-11 04:08:57.581 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-11 04:08:57.584 [info] [streamChoices] request done: requestId: [59addb4f-214d-4472-991c-2e92df2d1db7] model deployment ID: []
+2024-08-11 04:09:09.524 [info] [WorkspaceChunkSearch] Failed to search chunk embeddings index: , Error: Timeout computing embeddings
+    at mf.searchChunks (/home/cs300-user/.vscode-server/extensions/github.copilot-chat-0.18.1/dist/extension.js:254:31177)
+    at vf.rerankChunksUsingAda (/home/cs300-user/.vscode-server/extensions/github.copilot-chat-0.18.1/dist/extension.js:255:15394)
+    at zse (/home/cs300-user/.vscode-server/extensions/github.copilot-chat-0.18.1/dist/extension.js:254:3203)
+    at zse (/home/cs300-user/.vscode-server/extensions/github.copilot-chat-0.18.1/dist/extension.js:254:3203)
+    at vf.searchFileChunks (/home/cs300-user/.vscode-server/extensions/github.copilot-chat-0.18.1/dist/extension.js:255:14675)
+    at zse (/home/cs300-user/.vscode-server/extensions/github.copilot-chat-0.18.1/dist/extension.js:254:3203)
+    at yf.prepare (/home/cs300-user/.vscode-server/extensions/github.copilot-chat-0.18.1/dist/extension.js:272:875)
+    at zse (/home/cs300-user/.vscode-server/extensions/github.copilot-chat-0.18.1/dist/extension.js:254:3203)
+    at zse (/home/cs300-user/.vscode-server/extensions/github.copilot-chat-0.18.1/dist/extension.js:254:3203)
+    at /home/cs300-user/.vscode-server/extensions/github.copilot-chat-0.18.1/dist/extension.js:2:2593
+    at async Promise.all (index 2)
+    at $e._processPromptPieces (/home/cs300-user/.vscode-server/extensions/github.copilot-chat-0.18.1/dist/extension.js:2:2516)
+    at $e._processPromptPieces (/home/cs300-user/.vscode-server/extensions/github.copilot-chat-0.18.1/dist/extension.js:2:2989)
+    at $e._processPromptPieces (/home/cs300-user/.vscode-server/extensions/github.copilot-chat-0.18.1/dist/extension.js:2:2989)
+    at $e._processPromptPieces (/home/cs300-user/.vscode-server/extensions/github.copilot-chat-0.18.1/dist/extension.js:2:2989)
+    at $e.render (/home/cs300-user/.vscode-server/extensions/github.copilot-chat-0.18.1/dist/extension.js:2:3720)
+    at $e.render (/home/cs300-user/.vscode-server/extensions/github.copilot-chat-0.18.1/dist/extension.js:141:7453)
+    at jw.buildPrompt (/home/cs300-user/.vscode-server/extensions/github.copilot-chat-0.18.1/dist/extension.js:141:7037)
+    at yT._provideResponseWithProgress (/home/cs300-user/.vscode-server/extensions/github.copilot-chat-0.18.1/dist/extension.js:1281:2097)
+    at yT.handleRequest (/home/cs300-user/.vscode-server/extensions/github.copilot-chat-0.18.1/dist/extension.js:1279:2011)
+    at t.y (/home/cs300-user/.vscode-server/extensions/github.copilot-chat-0.18.1/dist/extension.js:1290:1839)
+    at s.$invokeAgent (/home/cs300-user/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/out/vs/workbench/api/node/extensionHostProcess.js:154:51474)
+2024-08-11 04:09:12.134 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 2564 ms
+2024-08-11 04:09:21.733 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-11 04:09:21.740 [info] [streamChoices] request done: requestId: [0956742f-109b-441c-a97a-7e3a5235f08a] model deployment ID: []
+2024-08-11 04:09:23.778 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 643 ms
+2024-08-11 04:09:23.845 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-11 04:09:23.847 [info] [streamChoices] request done: requestId: [2a1952e5-3263-4807-987e-6c73da705a19] model deployment ID: []
+2024-08-11 04:09:54.880 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 1146 ms
+2024-08-11 04:10:03.164 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-11 04:10:03.176 [info] [streamChoices] request done: requestId: [9bd7cb81-88f8-463d-ae11-31250b74c742] model deployment ID: []
+2024-08-11 04:10:05.733 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 1034 ms
+2024-08-11 04:10:05.757 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-11 04:10:05.760 [info] [streamChoices] request done: requestId: [f3d23c4e-343d-4d96-b968-b2770b57ae08] model deployment ID: []
+2024-08-11 04:11:14.041 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 1324 ms
+2024-08-11 04:11:22.000 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-11 04:11:22.006 [info] [streamChoices] request done: requestId: [da7d57df-1e52-4a17-808a-58a757c6c437] model deployment ID: []
+2024-08-11 04:11:24.455 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 949 ms
+2024-08-11 04:11:24.505 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-11 04:11:24.506 [info] [streamChoices] request done: requestId: [46ba5ff1-1c8f-46e4-9436-626bc41d9830] model deployment ID: []
+2024-08-11 04:11:38.859 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 1119 ms
+2024-08-11 04:11:51.481 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-11 04:11:51.486 [info] [streamChoices] request done: requestId: [86fee8dc-dc93-46a5-b907-821ea308afdf] model deployment ID: []
+2024-08-11 04:11:53.934 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 883 ms
+2024-08-11 04:11:53.964 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-11 04:11:53.965 [info] [streamChoices] request done: requestId: [fced5933-1b18-4241-9fed-cfe9ca5c2758] model deployment ID: []
+2024-08-11 04:13:53.314 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 2007 ms
+2024-08-11 04:14:06.870 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-11 04:14:06.874 [info] [streamChoices] request done: requestId: [43ebfca4-3166-4ba7-a732-74c84b9df219] model deployment ID: []
+2024-08-11 04:14:09.374 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 962 ms
+2024-08-11 04:14:09.418 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-11 04:14:09.420 [info] [streamChoices] request done: requestId: [2eb36d3f-fabe-48c7-a975-cd68b5522221] model deployment ID: []
+2024-08-11 04:14:44.147 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 1055 ms
+2024-08-11 04:14:44.856 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-11 04:14:44.857 [info] [streamChoices] request done: requestId: [e63a0655-3c1a-44b2-bc67-0ade01776a09] model deployment ID: []
+2024-08-11 04:14:50.269 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 1197 ms
+2024-08-11 04:14:59.589 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-11 04:14:59.597 [info] [streamChoices] request done: requestId: [d8b05b90-f5f4-44af-8a31-a25fdb062ea5] model deployment ID: []
+2024-08-11 04:15:01.707 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 787 ms
+2024-08-11 04:15:01.796 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-11 04:15:01.798 [info] [streamChoices] request done: requestId: [2e7f2203-c33c-478f-892a-473847a7e3a6] model deployment ID: []
+2024-08-11 04:24:26.342 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 2228 ms
+2024-08-11 04:24:27.042 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-11 04:24:27.045 [info] [streamChoices] request done: requestId: [1ef2f06e-4d8d-4cdf-8225-2e6bd991277c] model deployment ID: []
+2024-08-11 04:24:33.110 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 1134 ms
+2024-08-11 04:24:40.800 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-11 04:24:40.804 [info] [streamChoices] request done: requestId: [2531f21a-cc8d-4630-b3be-13d23cc5ea08] model deployment ID: []
+2024-08-11 04:24:43.291 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 953 ms
+2024-08-11 04:24:43.318 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-11 04:24:43.320 [info] [streamChoices] request done: requestId: [b72cc0dc-e643-4470-9d66-283233bd61a5] model deployment ID: []
+2024-08-11 04:27:14.544 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 2088 ms
+2024-08-11 04:27:20.278 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-11 04:27:20.281 [info] [streamChoices] request done: requestId: [17ba6c1b-9a29-4ba1-967a-67ed074a322c] model deployment ID: []
+2024-08-11 04:27:22.535 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 645 ms
+2024-08-11 04:27:22.545 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-11 04:27:22.548 [info] [streamChoices] request done: requestId: [92f5b004-9b05-44dc-9459-2572ad7bd25d] model deployment ID: []
+2024-08-11 04:27:56.030 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 880 ms
+2024-08-11 04:28:09.737 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-11 04:28:09.741 [info] [streamChoices] request done: requestId: [3929caed-11c2-4bc1-9828-4225896867af] model deployment ID: []
+2024-08-11 04:28:11.815 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 661 ms
+2024-08-11 04:28:11.855 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-11 04:28:11.856 [info] [streamChoices] request done: requestId: [b081c182-faa5-424c-b3ff-2fe1b1b98f7f] model deployment ID: []
+2024-08-11 04:30:38.058 [info] [auth] Logged in as junjiezhou1122
+2024-08-11 04:30:40.455 [info] [auth] Got Copilot token for junjiezhou1122
+2024-08-11 04:30:40.467 [info] [chat] copilot token chat_enabled: true
+2024-08-11 04:39:40.481 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 1813 ms
+2024-08-11 04:39:41.491 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-11 04:39:41.496 [info] [streamChoices] request done: requestId: [a94b7558-ea0b-48ac-9864-995e9ea1bb01] model deployment ID: []
+2024-08-11 04:39:48.922 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 1210 ms
+2024-08-11 04:39:52.449 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-11 04:39:52.453 [info] [streamChoices] request done: requestId: [21028c2d-9b32-427f-a7f5-902a83aeba2b] model deployment ID: []
+2024-08-11 04:39:53.438 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 685 ms
+2024-08-11 04:39:53.445 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-11 04:39:53.448 [info] [streamChoices] request done: requestId: [0669d2f0-c563-4a40-b3ed-a6a0c8af4483] model deployment ID: []
+2024-08-11 04:55:40.495 [info] [auth] Logged in as junjiezhou1122
+2024-08-11 04:55:42.957 [info] [auth] Got Copilot token for junjiezhou1122
+2024-08-11 04:55:42.978 [info] [chat] copilot token chat_enabled: true
+2024-08-11 05:11:37.724 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 2816 ms
+2024-08-11 05:11:52.871 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-11 05:11:52.884 [info] [streamChoices] request done: requestId: [5e6d2546-b0ae-4878-931d-eaa6680faccc] model deployment ID: []
+2024-08-11 05:11:55.099 [info] [chat fetch] request.response: [https://api.githubcopilot.com/chat/completions], took 780 ms
+2024-08-11 05:11:55.179 [info] [streamMessages] message 0 returned. finish reason: [stop]
+2024-08-11 05:11:55.182 [info] [streamChoices] request done: requestId: [de539cda-c267-4e7c-bfc9-43e92ecb54ba] model deployment ID: []
+2024-08-11 05:20:43.028 [info] [auth] Logged in as junjiezhou1122
+2024-08-11 05:20:45.890 [info] [auth] Got Copilot token for junjiezhou1122
+2024-08-11 05:20:45.915 [info] [chat] copilot token chat_enabled: true
+2024-08-11 06:40:24.959 [info] [auth] Logged in as junjiezhou1122
+2024-08-11 06:40:24.974 [info] [auth] Logged in as junjiezhou1122
+2024-08-11 06:40:24.974 [info] [auth] Logged in as junjiezhou1122
+2024-08-11 06:40:27.850 [info] [auth] Got Copilot token for junjiezhou1122
+2024-08-11 06:40:27.916 [info] [auth] Got Copilot token for junjiezhou1122
+2024-08-11 06:40:27.916 [info] [auth] Got Copilot token for junjiezhou1122
+2024-08-11 07:10:50.439 [info] [auth] Logged in as junjiezhou1122
+2024-08-11 07:10:54.787 [info] [auth] Got Copilot token for junjiezhou1122
+2024-08-11 07:10:54.830 [info] [chat] copilot token chat_enabled: true
+2024-08-11 07:11:21.818 [info] [auth] Logged in as junjiezhou1122
+2024-08-11 07:11:21.819 [info] [auth] Logged in as junjiezhou1122
+2024-08-11 07:11:23.712 [info] [auth] Got Copilot token for junjiezhou1122
+2024-08-11 07:11:23.713 [info] [auth] Got Copilot token for junjiezhou1122
