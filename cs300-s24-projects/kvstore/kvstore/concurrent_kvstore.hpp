@@ -6,8 +6,10 @@
 #include <functional>
 #include <list>
 #include <map>
+#include <mutex>  // Added for std::unique_lock
 #include <optional>
 #include <shared_mutex>
+
 #include <string>
 
 #include "common/utils.hpp"
@@ -45,17 +47,23 @@ class DbMap {
   // Bucket associative array, with corresponding mutexes to protect access.
   std::array<std::list<DbItem>, BUCKET_COUNT> buckets;
 
-  // TODO (Part A, Step 4): You will need to add fields to synchronize access to
-  // the hashmap buckets!
+  // Reader-writer locks to synchronize access to buckets
+  std::array<std::shared_mutex, BUCKET_COUNT> bucket_locks;
 
   // Return the index of the bucket to search for `key`.
   size_t bucket(std::string key) const {
     return hasher(key) % BUCKET_COUNT;
   }
 
-  // Returns the DbItem with key 'key' in bucket `b` if it exists, std::nullopt
-  // otherwise Assumes that `b` == this->bucket(key).
+  // Locked version - acquires a shared_lock before access
   std::optional<DbItem> getIfExists(size_t b, std::string key) {
+    assert(b < BUCKET_COUNT);
+    std::shared_lock<std::shared_mutex> lock(bucket_locks[b]);
+    return getIfExistsNoLock(b, key);
+  }
+
+  // Non-locking version - caller must hold appropriate lock
+  std::optional<DbItem> getIfExistsNoLock(size_t b, std::string key) {
     assert(b < BUCKET_COUNT);
     for (const auto& item : this->buckets[b]) {
       if (item.key == key) {
@@ -65,12 +73,16 @@ class DbMap {
     return std::nullopt;
   }
 
-  // Insert a new DbItem with key 'key' and value 'value' to bucket `b`.
-  // If key already exists, updates value to `value`.
-  // Assumes that `b` == this->bucket(key).
+  // Locked version - acquires a unique_lock before modification
   void insertItem(size_t b, std::string key, std::string value) {
     assert(b < BUCKET_COUNT);
+    std::unique_lock<std::shared_mutex> lock(bucket_locks[b]);
+    insertItemNoLock(b, key, value);
+  }
 
+  // Non-locking version - caller must hold appropriate lock
+  void insertItemNoLock(size_t b, std::string key, std::string value) {
+    assert(b < BUCKET_COUNT);
     for (auto& item : this->buckets[b]) {
       if (item.key == key) {
         item.value = value;
@@ -80,11 +92,16 @@ class DbMap {
     this->buckets[b].emplace_back(key, value);
   }
 
-  // Remove a DbItem with key `key` from bucket `b`.
-  // Assumes that `b` == this->getBucketIndex(key).
+  // Locked version - acquires a unique_lock before modification
   bool removeItem(size_t b, std::string key) {
     assert(b < BUCKET_COUNT);
+    std::unique_lock<std::shared_mutex> lock(bucket_locks[b]);
+    return removeItemNoLock(b, key);
+  }
 
+  // Non-locking version - caller must hold appropriate lock
+  bool removeItemNoLock(size_t b, std::string key) {
+    assert(b < BUCKET_COUNT);
     size_t num_removed = this->buckets[b].remove_if(
         [&](auto&& item) { return item.key == key; });
     return num_removed > 0;

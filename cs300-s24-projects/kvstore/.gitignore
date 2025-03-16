@@ -6,3 +6,4 @@ build/*
 !build/plot_performance.py
 !build/run_tests
 !tests/
+.qodo

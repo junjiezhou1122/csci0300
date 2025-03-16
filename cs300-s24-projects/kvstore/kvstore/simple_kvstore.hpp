@@ -25,6 +25,8 @@ class SimpleKvStore : public KvStore {
  private:
   // TODO (Part A, Step 1 and Step 2): Implement your internal key-value store
   // here! You might need to add fields to synchronize access.
+  std::mutex mtx;
+  std::map<std::string, std::string> key_value_store;
 };
 
 #endif /* end of include guard */
