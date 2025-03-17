@@ -1,14 +1,16 @@
 #include "static_shardcontroller.hpp"
 
 bool StaticShardController::Query(const QueryRequest*, QueryResponse* res) {
-  // TODO (Part B, Step 1): Implement!
-
+  // Acquire shared lock to safely read the configuration
+  std::shared_lock<std::shared_mutex> lock(config_mtx);
+  res->config = config;
   return true;
 }
 
 bool StaticShardController::Join(const JoinRequest* req, JoinResponse*) {
   // TODO (Part B, Step 1): Implement!
-
+  std::unique_lock<std::shared_mutex> lock(config_mtx);
+  config->server_to_threads[req->server] = std::vector<Shard>();
   cout_color(BLUE, "Added server ", req->server,
              " to shardcontroller configuration.");
   return true;
